@@ -5,10 +5,3 @@ if (number1 % 2 === 0) {
 } else {
   console.log(arr.push(number1) + " " + "Это нечетное число");
 }
-
-let number = 1;
-
-console.log(number++);
-console.log(++number);
-console.log(number--);
-console.log(--number);
