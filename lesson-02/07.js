@@ -8,9 +8,8 @@ let passportMarried = {
 };
 
 let copyPassportMarried = {
-  married: true,
   ...passportMarried,
-
+  married: true,
   address: { ...passportMarried.address },
 };
 
